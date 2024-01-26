@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Socket.IO Client</title>
+    <script src="https://cdn.socket.io/3.1.2/socket.io.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const socket = io("https://api.redeneutra.velocitynet.com.br:8000", {
+          cors: "https://api.redeneutra.velocitynet.com.br:8000",
+          path: "/socket.io/",
+          transports: ["polling", "websocket"],
+          secure: "true",
+          rejectUnauthorized: false,
+        });
+
+        socket.on("connect", (data) => {
+          socket.emit("request_company_dashboard", "658c1b07b85b652ffd1aab35");
+          socket.on("request_company_dashboard", (data) => {
+            console.log(data);
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Socket.IO Client</h1>
+    <div>
+      <h2>Dados dos Parceiros da Empresa:</h2>
+      <pre id="partnersData">Aguardando dados...</pre>
+    </div>
+  </body>
+</html>
