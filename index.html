@@ -6,8 +6,8 @@
     <script src="https://cdn.socket.io/3.1.2/socket.io.min.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", () => {
-        const socket = io("https://api.redeneutra.velocitynet.com.br:8000", {
-          cors: "https://api.redeneutra.velocitynet.com.br:8000",
+        const socket = io("http://localhost:8000", {
+          cors: "*",
           path: "/socket.io/",
           transports: ["polling", "websocket"],
           secure: "true",
