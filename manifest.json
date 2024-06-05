@@ -1,6 +1,6 @@
 {
-    "name": "rede_neutra",
-    "short_name": "rede_neutra",
+    "name": "gerenciador_rede_neutra",
+    "short_name": "gerenciador_rede_neutra",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
