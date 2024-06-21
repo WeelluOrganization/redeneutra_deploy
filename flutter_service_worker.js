@@ -3,12 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "d97a03f24808b485fd7683fddf5b7f7a",
-"assets/AssetManifest.bin.json": "dd1c726808596f7f7d4aafddeddb038e",
-"assets/AssetManifest.json": "f04330b5247fc0c77e08cac99a3e7331",
+const RESOURCES = {"assets/AssetManifest.bin": "8225b83c773084ad606fbe284e756e54",
+"assets/AssetManifest.bin.json": "83bb0b27b0fba57d371323ffb8f023a2",
+"assets/AssetManifest.json": "9f14a36f96ecf24cc7d4c1996e9d7278",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/lib/image/capa.png": "f265a65f7b3fd6b22320be10ff741719",
+"assets/lib/image/fibranossa.jpg": "0edbd1f21f627c6a3fd6ca2db6c50e85",
+"assets/lib/image/fibranossabanner.jpg": "c6ff8aecefa6c7f0c010992716d66f74",
 "assets/lib/image/grid.png": "37eb3aca1f3bd69a957b16b133a26974",
 "assets/lib/image/grid2.png": "bc9b49d3b7edc301b2c86fb907b854e3",
 "assets/lib/image/profileuser.jpg": "8b167af653c2399dd93b952a48740620",
@@ -29,14 +31,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "d97a03f24808b485fd7683fddf5b7f7a
 "canvaskit/skwasm.worker.js": "bfb704a6c714a75da9ef320991e88b03",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "383e55f7f3cce5be08fcf1f3881f585c",
-"flutter_bootstrap.js": "8ab426eabb15e45d31913bb39c763855",
+"flutter_bootstrap.js": "369244f84579455a72be2f6ebfdc3dd7",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "index.html": "a92be5640dcff50a202580feb1a32086",
 "/": "a92be5640dcff50a202580feb1a32086",
-"main.dart.js": "aa32a633b28cdadd7151f9c4383feb19",
+"main.dart.js": "06b23f043ab2f0f4bb7a066dd9dacb33",
 "manifest.json": "5e6d5e4f1a5af15990ea36363b1c0c4f",
 "version.json": "a88af0618847413b0b66859eb1052ce2"};
 // The application shell files that are downloaded before a service worker can
