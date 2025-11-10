@@ -58865,7 +58865,7 @@ $S:3}
 A.cnS.prototype={
 $1(a){var s=A.iP().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/c29809135135e262a912cf583b2c90deb9ded610/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/ddf47dd3ff96dbde6d9c614db0d7f019d7c7a2b7/":s)+a},
 $S:40}
 A.aCH.prototype={
 kn(a,b){var s,r=this.a
@@ -171585,24 +171585,26 @@ i=A
 s=3
 return A.p(p.a.c3(),$async$yr)
 case 3:j.push(i.cx(b))
-k=k[0].f
-k.toString
+k=k[0]
+o=k.w
+if(o==null){k=k.f
+k.toString}else k=o
 p.d=k
 k=A.bZ()
 s=4
 return A.p(t._.b(k)?k:A.aH(k,t.z),$async$yr)
-case 4:o=b
+case 4:n=b
 k=A.bA("https://api.fibranossa.com.br/api/v1/company/get-partners",0,null)
-n=t.N
-m=A.e(["authorization","Bearer "+A.q(o),"Content-Type","application/json"],n,n)
+o=t.N
+m=A.e(["authorization","Bearer "+A.q(n),"Content-Type","application/json"],o,o)
 s=5
-return A.p(A.d5(k,B.a3.cL(A.e(["idEmpresa",p.d],n,n),null),m),$async$yr)
+return A.p(A.d5(k,B.a3.cL(A.e(["idEmpresa",p.d],o,o),null),m),$async$yr)
 case 5:l=b
 k=l.b
 s=k===200?6:8
 break
 case 6:s=9
-return A.p(A.hc(p.gadX(),A.c7(A.c6(l.e).c.a.i(0,"charset")).au(0,l.w),null,n,t.WW),$async$yr)
+return A.p(A.hc(p.gadX(),A.c7(A.c6(l.e).c.a.i(0,"charset")).au(0,l.w),null,o,t.WW),$async$yr)
 case 9:q=p.f=b
 s=1
 break
