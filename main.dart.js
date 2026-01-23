@@ -41140,14 +41140,9 @@ this.b=b},
 bC4:function bC4(a,b){this.a=a
 this.b=b},
 bC3:function bC3(){},
-bC5:function bC5(a,b,c,d,e,f,g){var _=this
-_.a=a
-_.b=b
-_.c=c
-_.d=d
-_.e=e
-_.f=f
-_.r=g},
+bC5:function bC5(a,b,c){this.a=a
+this.b=b
+this.c=c},
 bC2:function bC2(a){this.a=a},
 bC6:function bC6(a,b){this.a=a
 this.b=b},
@@ -166263,8 +166258,8 @@ s=A.aa(8)
 r=A.aa(8)
 return new A.a8(300,44,A.fJ(q,B.cd,!1,q,!0,B.a7,q,A.fS(),p.r,B.q,q,q,q,q,2,A.dA(q,new A.bP(4,A.aa(8),B.Fn),q,q,q,q,q,q,!0,new A.bP(4,s,B.Fn),q,q,q,q,q,q,q,q,q,q,q,new A.bP(4,r,B.Fn),q,q,q,q,q,new A.a0(B.aBk,A.x("Pesquisar logs",q,q,q,q,B.e5,q,q,q),q),q,q,q,q,q,q,q,q,q,q,q,q,q,!0,!0,q,q,q,q,q,q,q,q,q,q,q,q,q,q),B.aj,!0,q,!0,q,!1,q,B.cg,q,q,q,q,q,q,q,q,1,q,q,!1,"\u2022",q,p.f,q,q,q,!1,q,q,!1,q,!0,q,B.be,q,q,q,q,q,q,q,q,q,q,q,B.a9,!0,B.a_,B.u2,B.cz,q,q,q,q),q)}}
 A.Sz.prototype={
-V(){var s=t.N
-return new A.b2Z(A.e(["idEmpresa","ID Empresa","_id","ID BANCO DE DADOS","__v","VERS\xc3O BANCO DE DADOS","email","Email","status","Status","id","ID","token","Token","createdAt","Data de Cria\xe7\xe3o","updatedAt","\xdaltima Atualiza\xe7\xe3o","anexoLicenca","Anexo da Licen\xe7a","prefixoCadastro","Prefixo de Cadastro","razaoSocial","Raz\xe3o Social","cnpj","CNPJ","nomeFantasia","Nome Fantasia","contrato","Contrato","inscricaoEstadual","Inscri\xe7\xe3o Estadual","endereco","Endere\xe7o","telefone","Telefone","ativo","Ativo","statusContrato","Status Contrato","scm","SCM","dispensa","Dispensa","idIxc","ID IXC","idContratoIxc","ID Contrato IXC","usuario","Usu\xe1rio","valorDiaria","Valor Di\xe1ria","vlan","VLAN","idOlt","ID OLT","olt","OLT","idParceiro","ID Parceiro","idVlan","ID VLAN","value","Valor","idToken","ID Token","deletado","Deletado","pricingType","Tipo de Cobran\xe7a","hasActiveDiscount","Desconto Ativo","discountsTableId","ID Tabela de Desconto","previousDiscountsTableId","ID Tabela Anterior","ownDueDate","Dia de Vencimento","nivelAcesso","N\xedvel de Acesso","privilegio","Privil\xe9gio","nome","Nome","marca","Marca","slot","Slot","ipPublico","IP P\xfablico","ipLocal","IP Local","porta","Porta","usuarioUnm","Usu\xe1rio UNM","ipUnm","IP UNM","portUnm","Porta UNM","bairro","Bairro","idCidade","ID Cidade","valor","Valor","host","Host","hostIxc","Host IXC","tokenIxc","Token IXC","statusName","Nome do Status","daysToExecute","Prazo (dias)","blockClientActivation","Bloquear Ativa\xe7\xe3o","disabled","Desativado","color","Cor"],s,s),A.e(["true","Sim","false","N\xe3o","super_admin","Super Admin","daily","Di\xe1ria","monthly","Mensalidade","null",""],s,s),A.c(["senha","senhaUnm"],t.s))}}
+V(){var s="Dia de Vencimento",r=t.N
+return new A.b2Z(A.e(["idEmpresa","ID Empresa","_id","ID BANCO DE DADOS","__v","VERS\xc3O BANCO DE DADOS","email","Email","status","Status","id","ID","token","Token","createdAt","Data de Cria\xe7\xe3o","updatedAt","\xdaltima Atualiza\xe7\xe3o","anexoLicenca","Anexo da Licen\xe7a","prefixoCadastro","Prefixo de Cadastro","razaoSocial","Raz\xe3o Social","cnpj","CNPJ","nomeFantasia","Nome Fantasia","contrato","Contrato","inscricaoEstadual","Inscri\xe7\xe3o Estadual","endereco","Endere\xe7o","telefone","Telefone","ativo","Ativo","statusContrato","Status Contrato","scm","SCM","dispensa","Dispensa","idIxc","ID IXC","idContratoIxc","ID Contrato IXC","usuario","Usu\xe1rio","valorDiaria","Valor Di\xe1ria","vlan","VLAN","idOlt","ID OLT","olt","OLT","idParceiro","ID Parceiro","idVlan","ID VLAN","value","Valor","idToken","ID Token","deletado","Deletado","pricingType","Tipo de Cobran\xe7a","hasActiveDiscount","Desconto Ativo","discountsTableId","ID Tabela de Desconto","previousDiscountsTableId","ID Tabela Anterior","ownDueDate",s,"statusAnterior","Status Anterior","statusNovo","Status Novo","idStatusAnterior","ID Status Anterior","idStatusNovo","ID Status Novo","nivelAcesso","N\xedvel de Acesso","privilegio","Privil\xe9gio","nome","Nome","marca","Marca","slot","Slot","ipPublico","IP P\xfablico","ipLocal","IP Local","porta","Porta","usuarioUnm","Usu\xe1rio UNM","ipUnm","IP UNM","portUnm","Porta UNM","bairro","Bairro","idCidade","ID Cidade","valor","Valor","host","Host","hostIxc","Host IXC","tokenIxc","Token IXC","statusName","Nome do Status","daysToExecute","Prazo (dias)","blockClientActivation","Bloquear Ativa\xe7\xe3o","disabled","Desativado","color","Cor","oldDueDay","Dia de Vencimento Anterior","newDueDay","Novo Dia de Vencimento","invoiceDueDay",s],r,r),A.e(["true","Sim","false","N\xe3o","super_admin","Super Admin","daily","Di\xe1ria","monthly","Mensalidade","null",""],r,r),A.c(["senha","senhaUnm"],t.s))}}
 A.b2Z.prototype={
 ghz(a){var s=this.d
 return s===$?this.d=this.a.c:s},
@@ -168281,13 +168276,25 @@ case 6:case 1:return A.u(q,r)
 case 2:return A.t(o.at(-1),r)}})
 return A.v($async$Bd,r)},
 EF(a,b){return this.bMc(a,b)},
-bMc(a,b){var s=0,r=A.w(t.y),q,p=2,o=[],n=[],m=this,l,k,j,i
+bMc(a,b){var s=0,r=A.w(t.y),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f
 var $async$EF=A.r(function(c,d){if(c===1){o.push(d)
 s=p}while(true)switch(s){case 0:p=4
 m.c=!0
 m.W()
-s=7
-return A.n(m.a.agq(b.c,b.d,b.b,b.e,a,b.a),$async$EF)
+j=A.C(t.N,t.z)
+i=b.a
+h=i!=null
+if(h)j.h(0,"statusName",i)
+i=b.d
+if(i!=null)j.h(0,"color",i)
+i=b.c
+if(i!=null)j.h(0,"blockClientActivation",i)
+i=b.e
+if(i!=null)j.h(0,"disabled",i)
+if(h)j.h(0,"daysToExecute",b.b)
+else{i=b.b
+if(i!=null)j.h(0,"daysToExecute",i)}s=7
+return A.n(m.a.agq(j,a),$async$EF)
 case 7:l=d
 s=l?8:9
 break
@@ -168301,8 +168308,8 @@ n.push(6)
 s=5
 break
 case 4:p=3
-i=o.pop()
-k=A.aS(i)
+f=o.pop()
+k=A.aS(f)
 A.jQ().$1("Error updating contract statuses: "+A.q(k))
 m.b=J.a7(k)
 q=!1
@@ -169045,10 +169052,10 @@ s=1
 break
 case 1:return A.u(q,r)}})
 return A.v($async$acY,r)},
-agq(a,b,c,d,e,f){return this.bMb(a,b,c,d,e,f)},
-bMb(a,b,c,d,e,f){var s=0,r=A.w(t.y),q,p=this
-var $async$agq=A.r(function(g,h){if(g===1)return A.t(h,r)
-while(true)switch(s){case 0:q=p.tD(new A.bC5(p,e,f,c,b,a,d),t.y)
+agq(a,b){return this.bMb(a,b)},
+bMb(a,b){var s=0,r=A.w(t.y),q,p=this
+var $async$agq=A.r(function(c,d){if(c===1)return A.t(d,r)
+while(true)switch(s){case 0:q=p.tD(new A.bC5(p,b,a),t.y)
 s=1
 break
 case 1:return A.u(q,r)}})
@@ -169150,30 +169157,19 @@ A.bC3.prototype={
 $1(a){return A.cJ(J.Q(a,"nomeFantasia"))},
 $S:122}
 A.bC5.prototype={
-$0(){var s=0,r=A.w(t.y),q,p=this,o,n,m,l,k
+$0(){var s=0,r=A.w(t.y),q,p=this,o,n,m,l
 var $async$$0=A.r(function(a,b){if(a===1)return A.t(b,r)
-while(true)switch(s){case 0:m=A.bp($.adj+"/"+("contract-statuses/"+p.b),0,null).wj(0,null)
-l=A.C(t.N,t.z)
-k=p.c
-if(k!=null)l.h(0,"statusName",k)
-k=p.d
-if(k!=null)l.h(0,"daysToExecute",k)
-k=p.e
-if(k!=null)l.h(0,"color",k)
-k=p.f
-if(k!=null)l.h(0,"blockClientActivation",k)
-k=p.r
-if(k!=null)l.h(0,"disabled",k)
-o=B.a0.cl(l,null)
-k=p.a.a
-k===$&&A.a()
+while(true)switch(s){case 0:n=A.bp($.adj+"/"+("contract-statuses/"+p.b),0,null).wj(0,null)
+m=B.a0.cl(p.c,null)
+l=p.a.a
+l===$&&A.a()
 s=3
-return A.n(A.Tz(m,o,k),$async$$0)
-case 3:n=b
-k=n.b
-if(k===200){q=!0
+return A.n(A.Tz(n,m,l),$async$$0)
+case 3:o=b
+l=o.b
+if(l===200){q=!0
 s=1
-break}else{A.jQ().$1("Failed to update contract status: "+k+", "+A.bV(A.bU(n.e).c.a.i(0,"charset")).ap(0,n.w))
+break}else{A.jQ().$1("Failed to update contract status: "+l+", "+A.bV(A.bU(o.e).c.a.i(0,"charset")).ap(0,o.w))
 q=!1
 s=1
 break}case 1:return A.u(q,r)}})
